@@ -75,6 +75,16 @@ The tag should be placed in a specific order to ensure compatibility:
 4. AFTER any `from __future__ import ...` statements
 5. BEFORE the first main import statement or function/class definition
 
+EXAMPLE OF CODE:
+```python
+# vt_main.py
+VERSION = "1.5.0 stable"  # Updated with auto-start tracking and auto-fix button features
+import tkinter as tk
+from tkinter import messagebox
+import sys
+import traceback
+```
+
 ## Configuration File
 
 The application settings are stored in the `version_tracker_config.ini` file included in the package. This file is automatically created and updated when you change settings within the application.
