@@ -62,9 +62,11 @@ That's it! No additional installation or Python environment required.
 Python Version Tracker Pro follows a standard VERSION tag format:
 
 ```python
-VERSION = "1.0.0"
+VERSION = "1.0.0 Core build"
 ```
-
+```python
+VERSION = "!.5 UI overhaul, debugging)
+```
 The tag should be placed in a specific order to ensure compatibility:
 
 1. AFTER any shebang (e.g., `#!/usr/bin/python3`)
