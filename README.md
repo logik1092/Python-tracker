@@ -65,7 +65,7 @@ Python Version Tracker Pro follows a standard VERSION tag format:
 VERSION = "1.0.0 Core build"
 ```
 ```python
-VERSION = "!.5 UI overhaul, debugging)
+VERSION = "1.5 UI overhaul, debugging)"
 ```
 The tag should be placed in a specific order to ensure compatibility:
 
