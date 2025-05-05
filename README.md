@@ -2,7 +2,13 @@
 
 Python Version Tracker Pro automates version management in Python projects. It scans files for VERSION tags, detects missing/outdated versions, inserts tags correctly, creates backups, maintains history, and enables version comparisons. Perfect for teams and individuals seeking consistent versioning with minimal effort.
 
-![Python Version Tracker Pro Screenshot](app_screenshot.png)
+## Installation
+
+1. Download the Python Version Tracker Pro zip package
+2. Extract the zip file to a directory of your choice
+3. Run the `PythonVersionTrackerPro.exe` executable to start the application
+
+That's it! No additional installation or Python environment required.
 
 ## Features
 
@@ -16,22 +22,11 @@ Python Version Tracker Pro automates version management in Python projects. It s
 - **System Tray Integration**: Minimize to system tray for background monitoring
 - **AI Helper Prompt**: Copy a standardized prompt to get AI help with versioning
 
-## Installation
-
-1. Ensure you have Python 3.8+ installed
-2. Download the Python Version Tracker Pro package
-3. Extract all files to a directory of your choice
-4. Run `main.py` to start the application
-
-```bash
-python main.py
-```
-
 ## Usage
 
 ### Getting Started
 
-1. Start the application by running `main.py`
+1. Start the application by running `PythonVersionTrackerPro.exe`
 2. Click "Select Folder" to choose the Python project directory you want to track
 3. The application will scan all Python files in the directory and display their VERSION tag status
 4. Files with VERSION tags will be shown with a green "Has TAG" status
@@ -78,16 +73,20 @@ The tag should be placed in a specific order to ensure compatibility:
 4. AFTER any `from __future__ import ...` statements
 5. BEFORE the first main import statement or function/class definition
 
+## Configuration File
+
+The application settings are stored in the `version_tracker_config.ini` file included in the package. This file is automatically created and updated when you change settings within the application.
+
 ## Troubleshooting
 
 - **Files not showing**: Check if they are excluded in the file filters
 - **VERSION tags not detected**: Ensure they follow the standard format `VERSION = "X.Y.Z"`
-- **Application won't start**: Make sure all required files are in the same directory
+- **Application won't start**: Verify that both the .exe and config file are present
 - **Error opening files**: Verify file permissions and that they exist at the specified location
 
 ## Support and Contribution
 
-For support, feature requests, or to report bugs, please open an issue on our repository.
+For support, feature requests, or to report bugs, please contact the developer.
 
 Donations are accepted via CashApp @ $logik109
 
